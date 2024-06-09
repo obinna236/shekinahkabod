@@ -1,0 +1,269 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  header {
+    width: 100%;
+    padding: 2rem;
+    background-color: #362222fa;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 222;
+  }
+  
+  .logo {
+    font-size: 27px;
+    text-align: center;
+    color: white;
+    cursor: default;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 60px;
+    clip-path: circle();
+  }
+  
+  .nav ul {
+    display: flex;
+    gap: 2.5rem;
+  }
+  
+  .nav ul li a {
+    color: white;
+    padding: 0.5rem;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Arial,
+      "Franklin Gothic Medium";
+  }
+  
+  .nav ul li:hover a {
+    background-color: orange;
+    color: #333;
+    border-radius: 0.5rem;
+    transition: 0.8s all ease;
+  }
+
+  .nav ul li:nth-of-type(2) a{
+    color: orange;
+    }
+    .nav ul li:nth-of-type(2):hover a{
+    color: black;
+    }
+    
+  
+  .icon {
+    margin-right: 2rem;
+  }
+  
+  .icon i {
+    margin-right: 2rem;
+    font-size: 22px;
+    color: white;
+  }
+  
+  .icon i:hover {
+    animation: rotate 0.5s linear 1;
+    color: orange;
+  }
+  
+  .icon button {
+    padding: 0.5rem;
+    width: 6rem;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    font-size: 18px;
+  }
+  
+  .icon button:hover {
+    background-color: yellowgreen;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .menu {
+    display: none;
+  }
+  
+  .media-nav {
+    display: none;
+  }
+  
+  /* our header styling ends */
+
+  /* our background */
+
+  .background{
+    width: 100%;
+    height: 27rem;
+    background-image: url(IMG_20230817_135654_023.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+  }
+
+  .vail{
+    position: absolute;
+    height: 27rem;
+    width: 100%;
+    background-color: rgba(1, 2, 4, 0.813);
+    text-align: center;
+    color: white;
+  }
+  
+  .vail h3{
+    padding-top: 15rem;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .vail h1{
+    padding-top: 1rem;
+    color: orange;
+    font-size: 34px;
+  }
+
+  /* about description */
+
+  .about{
+    width: 100%;
+    height: 36rem;
+  }
+
+  .about .image{
+    width: 25rem;
+    height: 24rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    background-color: #503c3cfa;
+    overflow: hidden;
+    border-radius: 1rem;
+  }
+
+  .about .image img{
+    width: 200%;
+    height: 200%;
+    object-fit: contain;
+    margin-left: -13rem;
+    margin-top: -10rem;
+  }
+
+  .description{
+    margin-left: 40rem;
+    margin-top: -20rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .description h3{
+    color: orange;
+  }
+
+  .description h1{
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .description p{
+    font-size: 18px;
+  }
+
+  .description .activities{
+    margin-top: 1rem;
+  }
+
+  .activities i{
+    margin-top: 2rem;
+    font-size: 25px;
+    color: #362222fa;
+    padding: 0.8rem;
+    background-color: orange;
+    clip-path: circle();
+  }
+
+  /* church pastors styling */
+
+  .pastors{
+    text-align: center;
+    width: 100%;
+    height: 32rem;
+  }
+
+  .pastors h1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+  }
+
+  .image-pastors{
+    width: 25rem;
+    height: 17rem;
+    background-color: #362222fa;
+    display: inline-flex;
+    border-radius: 1rem;
+    margin-left: 1rem;
+  }
+
+  .image-pastors .text{
+    margin-top: 16rem;
+    width: 25rem;
+    height: 5rem;
+    background-color: #503c3cfa;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    color: white;
+  }
+
+  .image-pastors .text h3{
+    padding-top: 1rem;
+  }
+
+  .image-pastors .text p{
+    color: orange;
+    font-size: 19px;
+  }
+
+  /* testimonials */
+  /* swiper */
+.swiper {
+  width: 91%;
+  height: 20rem;
+  text-align: center;
+}
+
+.swiper h1{
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.swiper-wrapper{
+  display: flex;
+}
+
+.swiper-slide{
+  background-color: #362222;
+  
+}
+
+.swiper-slide img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

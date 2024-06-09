@@ -1,0 +1,285 @@
+@media (max-width: 1309px) {
+    header .nav,
+    .icon {
+      display: none;
+    }
+  
+    .menu {
+      display: block;
+      font-size: 22px;
+      color: #fff;
+    }
+  
+    .media-nav {
+      display: block;
+      position: fixed;
+      width: 16rem;
+      height: 100%;
+      background-color: #fff;
+      z-index: 555;
+      text-align: center;
+      align-items: center;
+      box-shadow: 0px 0px 10px rgb(81, 79, 79, 0.4);
+      margin-left: -18rem;
+      transition: 900ms all ease;
+    }
+  
+    .slideOut {
+      margin-left: 0;
+      transition: 900ms all ease;
+    }
+  
+    .media-nav ul {
+      margin-top: 4rem;
+    }
+  
+    .media-nav ul li {
+      margin-top: 3rem;
+    }
+  
+    .media-nav ul li a {
+      font-size: 25px;
+      color: rgb(81, 79, 79);
+      padding: 0.5rem;
+    }
+  
+    .media-nav ul li:nth-of-type(1) a {
+      color: green;
+    }
+  
+    .media-nav ul li:hover a {
+      background-color: orange;
+      color: #333;
+      border-radius: 0.5rem;
+      transition: 0.8s all ease;
+    }
+  
+    .media-nav .media-icon {
+      display: block;
+      margin-top: 4rem;
+    }
+  
+    .media-nav .media-icon {
+      margin-top: 3rem;
+      font-size: 22px;
+    }
+  
+    .media-icon i {
+      color: rgb(81, 79, 79);
+    }
+  
+    .media-nav button {
+      margin-top: 2rem;
+      padding: 0.5rem;
+      width: 7rem;
+      background-color: orange;
+      border: 0;
+      font-size: 20px;
+      border-radius: 0.5rem;
+    }
+  }
+  @media (max-width: 449px) {
+    .media-nav {
+      display: block;
+      position: fixed;
+      width: 12rem;
+      height: 100%;
+      background-color: #fff;
+      z-index: 555;
+      margin-left: -15rem;
+      transition: 900ms all ease;
+    }
+  
+    .slideOut {
+      margin-left: 0;
+      transition: 900ms all ease;
+    }
+  
+    header .logo {
+      font-size: 25px;
+    }
+  }
+  @media (max-width: 337px) {
+    .media-nav {
+      display: block;
+      position: fixed;
+      width: 10rem;
+      height: 100%;
+      background-color: #fff;
+      z-index: 555;
+      margin-left: -14rem;
+      transition: 900ms all ease;
+    }
+  
+    .slideOut {
+      margin-left: 0;
+      transition: 900ms all ease;
+    }
+  
+    header .logo {
+      font-size: 25px;
+    }
+  }
+  
+  /* our header media query ends */
+
+  /* background */
+
+  @media (max-width: 535px) {
+    .vail h3{
+        font-size: 25px;
+      }
+    
+      .vail h1{
+        padding-top: 1rem;
+        color: orange;
+        font-size: 28px;
+      }
+  }
+
+  /* about */
+
+  @media (max-width: 1147px) {
+    .description{
+      margin-left: 35rem;
+      margin-top: -23rem;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  
+  }
+  @media (max-width: 1067px) {
+    .description{
+      margin-left: 32rem;
+      margin-top: -23rem;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  
+  }
+   @media (max-width: 842px) {
+    .about{
+      height: 60rem;
+    }
+
+    .description{
+      margin-left: 4rem;
+      margin-top: 3rem;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  
+  }
+
+  @media (max-width: 591px) {
+    .about{
+      height: 64rem;
+    }
+
+
+  }
+   @media (max-width: 478px) {
+
+    .about .image{
+      width: 20rem;
+      height: 20rem;
+    }
+
+    .about .image img{
+      width: 200%;
+      height: 200%;
+      object-fit: contain;
+      margin-left: -10rem;
+      margin-top: -10rem;
+    }
+  
+  
+  }
+  @media (max-width: 401px) {
+    .about{
+      height: 68rem;
+    }
+
+
+    .about .image{
+      width: 15rem;
+      height: 16rem;
+    }
+
+    .about .image img{
+      width: 200%;
+      height: 200%;
+      object-fit: contain;
+      margin-left: -8rem;
+      margin-top: -6rem;
+    }
+
+  } 
+  @media (max-width: 313px) {
+    .about .image{
+      width: 12rem;
+      height: 14rem;
+    }
+
+    .about .image img{
+      width: 200%;
+      height: 200%;
+      object-fit: contain;
+      margin-left: -6.5rem;
+      margin-top: -6rem;
+    }
+
+  } 
+
+  @media (max-width: 260px) {
+    .about{
+      height: 70rem;
+    }
+
+
+  }
+
+  /* pastors image */
+
+  @media (max-width: 1255px) {
+    .pastors{
+      height: 57rem;
+    }
+    
+    .last-image{
+      margin-top: 4rem;
+    }
+  }
+  @media (max-width: 835px) {
+    .pastors{
+      height: 83rem;
+    }
+    .image-pastors{
+      margin-top: 4rem;
+    }
+
+    .last-image{
+      margin-top: 4rem;
+    }
+  }
+  @media (max-width: 436px) {
+    .pastors{
+      height: 83rem;
+    }
+    .image-pastors{
+      margin-top: 4rem;
+      width: 20rem;
+    }
+
+  }
+  @media (max-width: 357px) {
+    .image-pastors{
+      margin-top: 4rem;
+      width: 16rem;
+    }
+
+  }
+  @media (max-width: 327px) {
+    .image-pastors{
+      margin-top: 4rem;
+      width: 14rem;
+    }
+
+  }

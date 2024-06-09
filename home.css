@@ -1,0 +1,359 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  padding: 2rem;
+  background-color: #362222fa;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 222;
+}
+
+.logo {
+  font-size: 27px;
+  text-align: center;
+  color: white;
+  cursor: default;
+  align-items: center;
+}
+
+.logo img {
+  width: 60px;
+  clip-path: circle();
+}
+
+.nav ul {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.nav ul li a {
+  color: white;
+  padding: 0.5rem;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Arial,
+    "Franklin Gothic Medium";
+}
+
+.nav ul li:hover a {
+  background-color: orange;
+  color: #333;
+  border-radius: 0.5rem;
+  transition: 0.8s all ease;
+}
+
+.nav ul li:nth-of-type(1) a{
+color: orange;
+}
+.nav ul li:nth-of-type(1):hover a{
+color: black;
+}
+
+.icon {
+  margin-right: 2rem;
+}
+
+.icon i {
+  margin-right: 2rem;
+  font-size: 22px;
+  color: white;
+}
+
+.icon i:hover {
+  animation: rotate 0.5s linear 1;
+  color: orange;
+}
+
+.icon button {
+  padding: 0.5rem;
+  width: 6rem;
+  background-color: orange;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-size: 18px;
+}
+
+.icon button:hover {
+  background-color: yellowgreen;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.menu {
+  display: none;
+}
+
+.media-nav {
+  display: none;
+}
+
+/* our header styling ends */
+
+.background {
+  width: 100%;
+  height: 46rem;
+  background-image: url(pastor.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vail {
+  width: 100%;
+  height: 46rem;
+  position: absolute;
+  background: rgba(207, 207, 207, 0.612);
+  text-align: center;
+}
+
+.vail h3 {
+  padding-top: 17rem;
+  padding-left: 2rem;
+  color: black;
+  font-size: 28px;
+}
+
+.vail h1 {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  font-size: 60px;
+}
+
+.vail p {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  font-size: 24px;
+}
+
+.vail button {
+  padding: 0.6rem;
+  font-size: 22px;
+  width: 15rem;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 3rem;
+  background-color: #362222;
+  color: orange;
+  font-weight: 600;
+}
+
+.vail button:hover {
+  background-color: orange;
+  color: #362222;
+  outline: white 2px solid;
+  cursor: pointer;
+}
+
+.our-ministries {
+  width: 100%;
+  height: 20rem;
+  background-color: #eee;
+}
+
+.our-ministries section {
+  margin-left: 3rem;
+}
+
+.boxes {
+  width: 18rem;
+  height: 15rem;
+  border:3px solid #362222;
+  display: inline-flex;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  justify-content: center;
+  background-color: #ddd;
+}
+
+
+.boxes h1{
+  padding-top: 1rem;
+}
+
+.about-us {
+  width: 100%;
+  height: 20rem;
+}
+
+.about-us h3 {
+  padding-left: 4rem;
+  padding-top: 1rem;
+}
+.about-us h1 {
+  padding-left: 4rem;
+  padding-top: 1rem;
+}
+
+.about-us p {
+  padding-left: 4rem;
+  padding-top: 0.5rem;
+}
+
+.about-us button {
+  margin-left: 4rem;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  width: 7rem;
+  border: 0;
+  background-color: orange;
+  font-size: 18px;
+  border-radius: 0.5rem;
+}
+
+button:hover {
+  background-color: #362222;
+  cursor: pointer;
+  color: orange;
+}
+
+.picture {
+  width: 28rem;
+  height: 15rem;
+  background-color: #362222;
+  margin-left: 40rem;
+  margin-top: -14rem;
+}
+
+.picture img{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* swiper */
+.swiper {
+  width: 91%;
+  height: 20rem;
+  text-align: center;
+}
+
+.swiper h1{
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.swiper-wrapper{
+  display: flex;
+}
+
+.swiper-slide{
+  background-color: #362222;
+  
+}
+
+.swiper-slide img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* events */
+
+.events{
+  width: 100%;
+  height: 34rem;
+  text-align: center;
+}
+
+.events h3{
+  padding-top: 5rem;
+  color: rgb(255, 153, 0);
+}
+
+.events h1{
+  padding-top: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.events section{
+margin-top: 2rem;
+}
+
+.cards{
+  width: 19rem;
+  height: 14rem;
+  background-color: #362222;
+  display: inline-flex;
+  border-radius: 1rem;
+}
+
+.cards img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.cards .text{
+margin-left: -19rem;
+margin-top: 13rem;
+width: 19rem;
+height: 7rem;
+background-color: #362222;
+border-bottom-left-radius: 1rem;
+border-bottom-right-radius: 1rem;
+color: white;
+font-size: 20px;
+
+}
+
+.cards .text .time{
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: white;
+  color: black;
+  width: 7rem;
+  margin-left: 6rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+.map h1{
+padding-top: 3rem;
+text-align: center;
+padding-bottom: 2rem;
+text-transform: capitalize;
+}
+.map iframe{
+  width: 100%;
+  height: 25rem;
+  background-color: transparent;
+}
+
+footer{
+  width: 100%;
+  height: 9rem;
+  background-color: #362222fa;
+  font-size: 25px;
+  text-align: center;
+  color: #eee;
+}
+
+.sect1{
+  margin-top: 2rem;
+  color: white;
+}
+
+footer p{
+  padding-top: 1.8rem;
+}
